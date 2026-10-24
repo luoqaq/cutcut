@@ -54,31 +54,33 @@ flowchart TD
 
 ```text
 cutcut/
-├── assets/
-│   └── bgm/                     # 授权背景音乐库 (CC BY 4.0 Lo-Fi / Classical)
-├── edits/                       # 剪辑项目工程
-│   ├── pet-douyin-v01/          # Codex 初版粗剪 (问题复盘归档)
-│   └── pet-douyin-v02/          # 方案 B 成片 (电影感桌搭 × 治愈陪伴)
-│       ├── edit_spec.json       # 声明式剪辑描述文件
-│       ├── 陪班搭子-电影感桌搭-v02.mp4  # 最终输出成片 (1080x1920)
-│       ├── cover.jpg            # 自动生成封面图
-│       ├── analysis/            # 多模态接触清单与元数据
-│       ├── jianying_export/     # 剪映草稿工程与安装脚本
-│       └── qa/                  # 响度分析报告与分镜连环画
-├── pipeline/                    # Python AI 剪辑核心流水线套件
-│   ├── cli.py                   # 统一命令行接口 (CLI)
-│   ├── ingest.py                # 素材扫描与特征提取
-│   ├── schema.py                # EditSpec 校验器
-│   ├── prepare.py               # 媒体切片与音频侧链处理
-│   ├── export_jianying.py       # 剪映草稿协议生成器
-│   └── verify.py                # 质检与封面提取器
-├── research/                    # 剪辑方法论、平台运营指南与草稿协议逆向文档
-├── studio/                      # Remotion 视频构图渲染引擎 (React 18 + TS)
+├── pipeline/                     # Python AI 剪辑核心流水线引擎 (Core Engine)
+│   ├── __init__.py
+│   ├── cli.py                    # 统一命令行接口 (CLI)
+│   ├── director.py               # AI 导演分镜与多模态叙事编排
+│   ├── ingest.py                 # 素材扫描与特征提取
+│   ├── prepare.py                # 媒体切片与音频侧链处理
+│   ├── schema.py                 # EditSpec 语法校验器
+│   ├── verify.py                 # 质检与封面提取器
+│   └── export_jianying.py        # 可选剪映草稿协议导出器
+├── studio/                       # Remotion 视频构图渲染引擎 (React 18 + TS)
 │   ├── src/
-│   │   ├── layouts/             # 三联屏 / 电影遮幅 / 分屏渲染组件
-│   │   └── components/          # 运镜缩放 (Ken Burns) 与动态字幕组件
+│   │   ├── layouts/              # 三联屏 / 电影遮幅 / 分屏渲染组件
+│   │   └── components/           # 运镜缩放 (Ken Burns) 与动态字幕组件
 │   └── remotion.config.ts
-└── 桌搭/                        # 原始多机位 4K/手机拍摄大素材 (Git 忽略，保留规范)
+├── projects/                     # 剪辑工程目录 (纯结构配置 JSON，无大文件)
+│   ├── pet-douyin-v01/           # Codex 初版粗剪归档
+│   └── pet-douyin-v02/           # 方案 B 电影感实战工程 (edit_spec.json, catalog.json)
+├── data/                         # 素材中心 (全局被 .gitignore 排除大文件)
+│   └── raw/                      # 原始多机位 4K/手机拍摄大素材
+│       └── desk_setup/           # 桌搭主题拍摄素材
+├── docs/                         # 统一文档与调研中心
+│   ├── research/                 # 剪辑方法论、平台运营指南与草稿协议逆向
+│   └── reviews/                  # 评测与对比复盘 (v01 vs v02 对比报告)
+├── assets/
+│   └── bgm/                      # 授权背景音乐库 (CC BY 4.0 Lo-Fi / Classical)
+├── requirements.txt              # 跨平台 Python 核心依赖清单
+└── .gitignore                    # 精准排除媒体大文件与运行时缓存
 ```
 
 ---
@@ -86,7 +88,7 @@ cutcut/
 ## 🚀 快速上手 (Quickstart)
 
 ### 环境依赖
-- **macOS** 或 **Linux**
+- **macOS** 或 **Windows** / **Linux**
 - **Python**: `>= 3.9`
 - **Node.js**: `>= 18.0.0`
 - **FFmpeg**: `>= 6.0` (`ffmpeg` 与 `ffprobe` 需在系统 `PATH` 中)
@@ -94,10 +96,10 @@ cutcut/
 ### 安装依赖
 
 ```bash
-# 1. 安装 Python 依赖
-pip install -r <(echo "pydantic>=2.0 jsonschema")
+# 1. 安装 Python 核心依赖
+pip install -r requirements.txt
 
-# 2. 安装 Remotion Studio 依赖
+# 2. 安装 Remotion Studio 渲染依赖
 cd studio
 npm install
 cd ..
@@ -110,26 +112,26 @@ cd ..
 
 ```bash
 python3 -m pipeline.cli auto \
-  --source 桌搭 \
+  --source data/raw/desk_setup \
   --prompt "程序员深夜治愈桌搭与萌宠陪伴，双犬同框" \
-  --out-dir edits/pet-douyin-v03 \
+  --out-dir projects/pet-douyin-v03 \
   --duration 20.0
 ```
 
 #### 🛠 方式二：模块化分步执行
 ```bash
 # 阶段 1：扫描原始素材并生成视觉接触清单与特征目录
-python3 -m pipeline.cli scan --source 桌搭 --out edits/pet-douyin-v02/analysis
+python3 -m pipeline.cli scan --source data/raw/desk_setup --out projects/pet-douyin-v02/analysis
 
 # 阶段 2：AI 导演基于多模态理解自动生成 EditSpec 声明式规范
-python3 -m pipeline.cli direct --analysis edits/pet-douyin-v02/analysis \
-  --source 桌搭 --prompt "治愈系桌搭日常" --out-spec edits/pet-douyin-v02/edit_spec.json
+python3 -m pipeline.cli direct --analysis projects/pet-douyin-v02/analysis \
+  --source data/raw/desk_setup --prompt "治愈系桌搭日常" --out-spec projects/pet-douyin-v02/edit_spec.json
 
 # 阶段 3：校验 EditSpec 规范合法性（防跳剪/防越界）
-python3 -m pipeline.cli validate --spec edits/pet-douyin-v02/edit_spec.json --source 桌搭
+python3 -m pipeline.cli validate --spec projects/pet-douyin-v02/edit_spec.json --source data/raw/desk_setup
 
 # 阶段 4：执行纯代码化渲染成片与自动化 QA 质检
-python3 -m pipeline.cli build --spec edits/pet-douyin-v02/edit_spec.json --source 桌搭
+python3 -m pipeline.cli build --spec projects/pet-douyin-v02/edit_spec.json --source data/raw/desk_setup
 ```
 > 若需同时导出剪映专业版工程草稿，在 `build` 或 `auto` 后面加上 `--jianying` 参数即可。
 
