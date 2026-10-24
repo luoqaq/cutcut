@@ -1,0 +1,373 @@
+{
+  "draft_id": "9BDB12FA-A499-58D8-9E31-174F1B50BE6E",
+  "draft_name": "CutCut-pet-douyin-v02",
+  "draft_fold_path": "/Users/luo/Movies/JianyingPro/User Data/Projects/com.lveditor.draft/CutCut-pet-douyin-v02",
+  "draft_root_path": "/Users/luo/Movies/JianyingPro/User Data/Projects/com.lveditor.draft",
+  "draft_cover": "",
+  "draft_type": "",
+  "draft_new_version": "",
+  "draft_is_invisible": false,
+  "draft_is_from_deeplink": "false",
+  "draft_is_ai_packaging_used": false,
+  "draft_is_ai_shorts": false,
+  "draft_is_article_video_draft": false,
+  "draft_materials": [
+    {
+      "type": 0,
+      "value": [
+        {
+          "id": "1C7C16A7-8BBB-5E92-AD1E-7B58A5ADB636",
+          "type": 0,
+          "metetype": "video",
+          "file_Path": "/Users/luo/Movies/JianyingPro/User Data/Projects/com.lveditor.draft/CutCut-pet-douyin-v02/Resources/0001_shot_01_main.mp4",
+          "extra_info": "shot_01_main",
+          "width": 1920,
+          "height": 1080,
+          "duration": 2533000,
+          "create_time": 0,
+          "import_time": 0,
+          "import_time_ms": 0,
+          "item_source": 1,
+          "md5": "",
+          "roughcut_time_range": {
+            "start": -1,
+            "duration": -1
+          },
+          "sub_time_range": {
+            "start": -1,
+            "duration": -1
+          }
+        },
+        {
+          "id": "500AA840-3A40-5E94-BF7B-9066E32E241D",
+          "type": 0,
+          "metetype": "video",
+          "file_Path": "/Users/luo/Movies/JianyingPro/User Data/Projects/com.lveditor.draft/CutCut-pet-douyin-v02/Resources/0002_shot_02_top.mp4",
+          "extra_info": "shot_02_top",
+          "width": 1920,
+          "height": 1080,
+          "duration": 2933000,
+          "create_time": 0,
+          "import_time": 0,
+          "import_time_ms": 0,
+          "item_source": 1,
+          "md5": "",
+          "roughcut_time_range": {
+            "start": -1,
+            "duration": -1
+          },
+          "sub_time_range": {
+            "start": -1,
+            "duration": -1
+          }
+        },
+        {
+          "id": "D3EC8239-CB42-5F47-BD83-749F626ACC76",
+          "type": 0,
+          "metetype": "video",
+          "file_Path": "/Users/luo/Movies/JianyingPro/User Data/Projects/com.lveditor.draft/CutCut-pet-douyin-v02/Resources/0003_shot_02_middle.mp4",
+          "extra_info": "shot_02_middle",
+          "width": 1920,
+          "height": 1080,
+          "duration": 2933000,
+          "create_time": 0,
+          "import_time": 0,
+          "import_time_ms": 0,
+          "item_source": 1,
+          "md5": "",
+          "roughcut_time_range": {
+            "start": -1,
+            "duration": -1
+          },
+          "sub_time_range": {
+            "start": -1,
+            "duration": -1
+          }
+        },
+        {
+          "id": "E6E8D902-03B7-53CF-9F80-6648A85699E7",
+          "type": 0,
+          "metetype": "video",
+          "file_Path": "/Users/luo/Movies/JianyingPro/User Data/Projects/com.lveditor.draft/CutCut-pet-douyin-v02/Resources/0004_shot_02_bottom.mp4",
+          "extra_info": "shot_02_bottom",
+          "width": 1920,
+          "height": 1080,
+          "duration": 2933000,
+          "create_time": 0,
+          "import_time": 0,
+          "import_time_ms": 0,
+          "item_source": 1,
+          "md5": "",
+          "roughcut_time_range": {
+            "start": -1,
+            "duration": -1
+          },
+          "sub_time_range": {
+            "start": -1,
+            "duration": -1
+          }
+        },
+        {
+          "id": "65D490AF-35D0-5E5A-9F48-DBB165AB1E08",
+          "type": 0,
+          "metetype": "video",
+          "file_Path": "/Users/luo/Movies/JianyingPro/User Data/Projects/com.lveditor.draft/CutCut-pet-douyin-v02/Resources/0005_shot_03_main.mp4",
+          "extra_info": "shot_03_main",
+          "width": 1920,
+          "height": 1080,
+          "duration": 2733000,
+          "create_time": 0,
+          "import_time": 0,
+          "import_time_ms": 0,
+          "item_source": 1,
+          "md5": "",
+          "roughcut_time_range": {
+            "start": -1,
+            "duration": -1
+          },
+          "sub_time_range": {
+            "start": -1,
+            "duration": -1
+          }
+        },
+        {
+          "id": "F21F77AD-0321-5884-B77C-B45EC377974D",
+          "type": 0,
+          "metetype": "video",
+          "file_Path": "/Users/luo/Movies/JianyingPro/User Data/Projects/com.lveditor.draft/CutCut-pet-douyin-v02/Resources/0006_shot_04_top.mp4",
+          "extra_info": "shot_04_top",
+          "width": 1920,
+          "height": 1080,
+          "duration": 3733000,
+          "create_time": 0,
+          "import_time": 0,
+          "import_time_ms": 0,
+          "item_source": 1,
+          "md5": "",
+          "roughcut_time_range": {
+            "start": -1,
+            "duration": -1
+          },
+          "sub_time_range": {
+            "start": -1,
+            "duration": -1
+          }
+        },
+        {
+          "id": "EC7F996B-4F2F-57D0-A4BA-B3075071DA17",
+          "type": 0,
+          "metetype": "video",
+          "file_Path": "/Users/luo/Movies/JianyingPro/User Data/Projects/com.lveditor.draft/CutCut-pet-douyin-v02/Resources/0007_shot_04_bottom.mp4",
+          "extra_info": "shot_04_bottom",
+          "width": 1920,
+          "height": 1080,
+          "duration": 3733000,
+          "create_time": 0,
+          "import_time": 0,
+          "import_time_ms": 0,
+          "item_source": 1,
+          "md5": "",
+          "roughcut_time_range": {
+            "start": -1,
+            "duration": -1
+          },
+          "sub_time_range": {
+            "start": -1,
+            "duration": -1
+          }
+        },
+        {
+          "id": "744ACCE4-663D-53A3-B116-F200C26CE0AD",
+          "type": 0,
+          "metetype": "video",
+          "file_Path": "/Users/luo/Movies/JianyingPro/User Data/Projects/com.lveditor.draft/CutCut-pet-douyin-v02/Resources/0008_shot_05_main.mp4",
+          "extra_info": "shot_05_main",
+          "width": 1920,
+          "height": 1080,
+          "duration": 2933000,
+          "create_time": 0,
+          "import_time": 0,
+          "import_time_ms": 0,
+          "item_source": 1,
+          "md5": "",
+          "roughcut_time_range": {
+            "start": -1,
+            "duration": -1
+          },
+          "sub_time_range": {
+            "start": -1,
+            "duration": -1
+          }
+        },
+        {
+          "id": "EC739846-8D27-57ED-9B38-245281964696",
+          "type": 0,
+          "metetype": "video",
+          "file_Path": "/Users/luo/Movies/JianyingPro/User Data/Projects/com.lveditor.draft/CutCut-pet-douyin-v02/Resources/0009_shot_06_main.mp4",
+          "extra_info": "shot_06_main",
+          "width": 1920,
+          "height": 1080,
+          "duration": 2733000,
+          "create_time": 0,
+          "import_time": 0,
+          "import_time_ms": 0,
+          "item_source": 1,
+          "md5": "",
+          "roughcut_time_range": {
+            "start": -1,
+            "duration": -1
+          },
+          "sub_time_range": {
+            "start": -1,
+            "duration": -1
+          }
+        },
+        {
+          "id": "4EB9F893-8DB5-5085-997D-B9BDA6A9B014",
+          "type": 0,
+          "metetype": "video",
+          "file_Path": "/Users/luo/Movies/JianyingPro/User Data/Projects/com.lveditor.draft/CutCut-pet-douyin-v02/Resources/0010_shot_07_main.mp4",
+          "extra_info": "shot_07_main",
+          "width": 1920,
+          "height": 1080,
+          "duration": 3733000,
+          "create_time": 0,
+          "import_time": 0,
+          "import_time_ms": 0,
+          "item_source": 1,
+          "md5": "",
+          "roughcut_time_range": {
+            "start": -1,
+            "duration": -1
+          },
+          "sub_time_range": {
+            "start": -1,
+            "duration": -1
+          }
+        },
+        {
+          "id": "8BAC0E90-12E6-52A2-B072-232D7B3B63BD",
+          "type": 0,
+          "metetype": "music",
+          "file_Path": "/Users/luo/Movies/JianyingPro/User Data/Projects/com.lveditor.draft/CutCut-pet-douyin-v02/Resources/0011_bgm_trimmed.wav",
+          "extra_info": "BGM_LoFi_Warm",
+          "width": 0,
+          "height": 0,
+          "duration": 20400000,
+          "create_time": 0,
+          "import_time": 0,
+          "import_time_ms": 0,
+          "item_source": 1,
+          "md5": "",
+          "roughcut_time_range": {
+            "start": -1,
+            "duration": -1
+          },
+          "sub_time_range": {
+            "start": -1,
+            "duration": -1
+          }
+        },
+        {
+          "id": "5E92A6E7-E055-587F-9699-B39EC6F8BA12",
+          "type": 0,
+          "metetype": "music",
+          "file_Path": "/Users/luo/Movies/JianyingPro/User Data/Projects/com.lveditor.draft/CutCut-pet-douyin-v02/Resources/0012_shot_04_bottom.wav",
+          "extra_info": "nat_shot_04_bottom",
+          "width": 0,
+          "height": 0,
+          "duration": 3600000,
+          "create_time": 0,
+          "import_time": 0,
+          "import_time_ms": 0,
+          "item_source": 1,
+          "md5": "",
+          "roughcut_time_range": {
+            "start": -1,
+            "duration": -1
+          },
+          "sub_time_range": {
+            "start": -1,
+            "duration": -1
+          }
+        },
+        {
+          "id": "E39B302D-A7E4-5AA1-8478-525DCF78567C",
+          "type": 0,
+          "metetype": "music",
+          "file_Path": "/Users/luo/Movies/JianyingPro/User Data/Projects/com.lveditor.draft/CutCut-pet-douyin-v02/Resources/0013_shot_07_main.wav",
+          "extra_info": "nat_shot_07_main",
+          "width": 0,
+          "height": 0,
+          "duration": 3600000,
+          "create_time": 0,
+          "import_time": 0,
+          "import_time_ms": 0,
+          "item_source": 1,
+          "md5": "",
+          "roughcut_time_range": {
+            "start": -1,
+            "duration": -1
+          },
+          "sub_time_range": {
+            "start": -1,
+            "duration": -1
+          }
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "value": []
+    },
+    {
+      "type": 2,
+      "value": []
+    },
+    {
+      "type": 3,
+      "value": []
+    },
+    {
+      "type": 4,
+      "value": []
+    },
+    {
+      "type": 5,
+      "value": []
+    },
+    {
+      "type": 6,
+      "value": []
+    },
+    {
+      "type": 7,
+      "value": []
+    }
+  ],
+  "draft_materials_copied_info": [],
+  "draft_segment_extra_info": [],
+  "draft_timeline_materials_size_": 61197603,
+  "draft_removable_storage_device": "",
+  "draft_cloud_materials": [],
+  "draft_cloud_last_action_download": false,
+  "draft_deeplink_url": "",
+  "draft_cloud_purchase_info": "",
+  "draft_cloud_capcut_purchase_info": "",
+  "draft_cloud_videocut_purchase_info": "",
+  "draft_cloud_template_id": "",
+  "draft_cloud_tutorial_info": "",
+  "cloud_package_completed_time": "",
+  "tm_draft_cloud_completed": "",
+  "tm_draft_cloud_modified": 0,
+  "tm_draft_create": 1792805617676509,
+  "tm_draft_modified": 1792805617676509,
+  "tm_draft_removed": 0,
+  "tm_duration": 20400000,
+  "draft_enterprise_info": {
+    "draft_enterprise_extra": "",
+    "draft_enterprise_id": "",
+    "draft_enterprise_name": "",
+    "enterprise_material": []
+  }
+}

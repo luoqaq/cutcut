@@ -1,0 +1,118 @@
+{
+  "project_id": "pet-douyin-v02",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "duration": 20.4,
+  "clips": {
+    "shot_01_main": {
+      "file": "shot_01_main.mp4",
+      "path": "/Users/luo/Projects/cutcut/edits/pet-douyin-v02/prepared/clips/shot_01_main.mp4",
+      "width": 1920,
+      "height": 1080,
+      "duration": 2.533,
+      "source": "C0410.MP4",
+      "source_start": 59.2
+    },
+    "shot_02_top": {
+      "file": "shot_02_top.mp4",
+      "path": "/Users/luo/Projects/cutcut/edits/pet-douyin-v02/prepared/clips/shot_02_top.mp4",
+      "width": 1920,
+      "height": 1080,
+      "duration": 2.933,
+      "source": "C0410.MP4",
+      "source_start": 244.2
+    },
+    "shot_02_middle": {
+      "file": "shot_02_middle.mp4",
+      "path": "/Users/luo/Projects/cutcut/edits/pet-douyin-v02/prepared/clips/shot_02_middle.mp4",
+      "width": 1920,
+      "height": 1080,
+      "duration": 2.933,
+      "source": "C0410.MP4",
+      "source_start": 173.6
+    },
+    "shot_02_bottom": {
+      "file": "shot_02_bottom.mp4",
+      "path": "/Users/luo/Projects/cutcut/edits/pet-douyin-v02/prepared/clips/shot_02_bottom.mp4",
+      "width": 1920,
+      "height": 1080,
+      "duration": 2.933,
+      "source": "C0408.MP4",
+      "source_start": 49.5
+    },
+    "shot_03_main": {
+      "file": "shot_03_main.mp4",
+      "path": "/Users/luo/Projects/cutcut/edits/pet-douyin-v02/prepared/clips/shot_03_main.mp4",
+      "width": 1920,
+      "height": 1080,
+      "duration": 2.733,
+      "source": "C0410.MP4",
+      "source_start": 93.4
+    },
+    "shot_04_top": {
+      "file": "shot_04_top.mp4",
+      "path": "/Users/luo/Projects/cutcut/edits/pet-douyin-v02/prepared/clips/shot_04_top.mp4",
+      "width": 1920,
+      "height": 1080,
+      "duration": 3.733,
+      "source": "C0409.MP4",
+      "source_start": 24.2
+    },
+    "shot_04_bottom": {
+      "file": "shot_04_bottom.mp4",
+      "path": "/Users/luo/Projects/cutcut/edits/pet-douyin-v02/prepared/clips/shot_04_bottom.mp4",
+      "width": 1920,
+      "height": 1080,
+      "duration": 3.733,
+      "source": "C0409.MP4",
+      "source_start": 218.8
+    },
+    "shot_05_main": {
+      "file": "shot_05_main.mp4",
+      "path": "/Users/luo/Projects/cutcut/edits/pet-douyin-v02/prepared/clips/shot_05_main.mp4",
+      "width": 1920,
+      "height": 1080,
+      "duration": 2.933,
+      "source": "C0410.MP4",
+      "source_start": 220.8
+    },
+    "shot_06_main": {
+      "file": "shot_06_main.mp4",
+      "path": "/Users/luo/Projects/cutcut/edits/pet-douyin-v02/prepared/clips/shot_06_main.mp4",
+      "width": 1920,
+      "height": 1080,
+      "duration": 2.733,
+      "source": "C0410.MP4",
+      "source_start": 193.5
+    },
+    "shot_07_main": {
+      "file": "shot_07_main.mp4",
+      "path": "/Users/luo/Projects/cutcut/edits/pet-douyin-v02/prepared/clips/shot_07_main.mp4",
+      "width": 1920,
+      "height": 1080,
+      "duration": 3.733,
+      "source": "C0408.MP4",
+      "source_start": 144.6
+    }
+  },
+  "nat_audio_events": [
+    {
+      "id": "nat_shot_04_bottom",
+      "path": "/Users/luo/Projects/cutcut/edits/pet-douyin-v02/prepared/audio/nat_clips/shot_04_bottom.wav",
+      "timeline_start": 7.8,
+      "duration": 3.6,
+      "source": "C0409.MP4"
+    },
+    {
+      "id": "nat_shot_07_main",
+      "path": "/Users/luo/Projects/cutcut/edits/pet-douyin-v02/prepared/audio/nat_clips/shot_07_main.wav",
+      "timeline_start": 16.8,
+      "duration": 3.6,
+      "source": "C0408.MP4"
+    }
+  ],
+  "master_audio": "/Users/luo/Projects/cutcut/edits/pet-douyin-v02/prepared/audio/master_mix.wav",
+  "bgm_stem": "/Users/luo/Projects/cutcut/edits/pet-douyin-v02/prepared/audio/bgm_trimmed.wav",
+  "nat_stem": "/Users/luo/Projects/cutcut/edits/pet-douyin-v02/prepared/audio/nat_stem.wav"
+}

@@ -1,0 +1,61 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# All Video Files (Raw camera footage, intermediate cuts, rendered MP4/MOV deliverables)
+*.mp4
+*.MP4
+*.mov
+*.MOV
+*.m4v
+*.avi
+*.mkv
+*.webm
+
+# Audio Stems & Intermediate Mixes
+*.wav
+*.WAV
+
+# Generated Visual Frames, Contact Sheets & Covers
+edits/**/analysis/*.jpg
+edits/**/analysis/*.png
+edits/**/qa/qa_frames/
+edits/**/qa/qa_portrait_sheet.jpg
+edits/**/cover.jpg
+edits/**/preview-cover.jpg
+verification/**/*.jpg
+verification/**/*.png
+
+# Intermediate Render Clips & Logs
+edits/*/prepared/clips/
+edits/*/prepared/audio/
+edits/*/clips/
+edits/*/assets/*.wav
+edits/*/*.log
+edits/*/analysis/frames/
+edits/pet-douyin-v01/analysis/
+edits/*/jianying_export/native_draft/**/Resources/
+
+# Node & Remotion Studio
+studio/node_modules/
+studio/.remotion/
+studio/out/
+studio/public/active/
+
+# Python & Build Caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+env/
+venv/
+
+# Explicit Whitelist (Keep directory structure & workflow metadata)
+!桌搭/.gitkeep
+!edits/*/prepared/manifest.json
+!edits/*/jianying_export/native_draft/**/draft_info.json
+!edits/*/jianying_export/native_draft/**/draft_meta_info.json
+!edits/*/qa/verification.json

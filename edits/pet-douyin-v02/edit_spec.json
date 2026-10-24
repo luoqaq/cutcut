@@ -1,0 +1,266 @@
+{
+  "project_id": "pet-douyin-v02",
+  "title": "陪班搭子 · 电影感桌搭治愈版 v02",
+  "output_filename": "陪班搭子-电影感桌搭-v02.mp4",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "cover_time": 1.2,
+  "theme": {
+    "bg_color": "#0A0B0E",
+    "accent_color": "#F3C98B",
+    "header_tag": "DESK VLOG · 陪班日常",
+    "header_subtitle": "CODING WITH MY FLUFFY COWORKERS"
+  },
+  "bgm": {
+    "file": "assets/bgm/late_night_radio.mp3",
+    "start": 0.0,
+    "volume_db": -12.5,
+    "duck_db": -7.0,
+    "fade_in": 0.4,
+    "fade_out": 1.2
+  },
+  "shots": [
+    {
+      "id": "shot_01",
+      "layout": "cinema_frame",
+      "duration": 2.4,
+      "aspect_ratio": "4:3",
+      "ambient_backdrop": true,
+      "transition_in": "none",
+      "badge": "PM 18:30 · 工位现状",
+      "camera_meta": "SONY 4K · F1.8",
+      "clips": [
+        {
+          "slot": "main",
+          "source": "C0410.MP4",
+          "start": 59.2,
+          "speed": 1.0,
+          "crop_focus": [0.52, 0.48],
+          "zoom_from": 1.0,
+          "zoom_to": 1.04
+        }
+      ],
+      "note": "开场钩子：暗调代码屏幕+机械键盘+博美正脸直视踩手托"
+    },
+    {
+      "id": "shot_02",
+      "layout": "triptych",
+      "duration": 2.8,
+      "ambient_backdrop": false,
+      "transition_in": "none",
+      "badge": "DESK SETUP · 沉浸多重视角",
+      "camera_meta": "TRIPTYCH 4K",
+      "clips": [
+        {
+          "slot": "top",
+          "source": "C0410.MP4",
+          "start": 244.2,
+          "speed": 1.0,
+          "crop_focus": [0.65, 0.50],
+          "label": "键盘细节"
+        },
+        {
+          "slot": "middle",
+          "source": "C0410.MP4",
+          "start": 173.6,
+          "speed": 1.0,
+          "crop_focus": [0.55, 0.46],
+          "label": "击掌营业"
+        },
+        {
+          "slot": "bottom",
+          "source": "C0408.MP4",
+          "start": 49.5,
+          "speed": 1.0,
+          "crop_focus": [0.46, 0.48],
+          "label": "温柔揉脸"
+        }
+      ],
+      "note": "三联屏打破单画幅沉闷感，同框展示键盘桌搭细节与击掌互动"
+    },
+    {
+      "id": "shot_03",
+      "layout": "cinema_frame",
+      "duration": 2.6,
+      "aspect_ratio": "16:9",
+      "ambient_backdrop": true,
+      "transition_in": "none",
+      "badge": "MOOD · 舔指尖特写",
+      "camera_meta": "MACRO · 25FPS",
+      "clips": [
+        {
+          "slot": "main",
+          "source": "C0410.MP4",
+          "start": 93.4,
+          "speed": 1.0,
+          "crop_focus": [0.54, 0.45],
+          "zoom_from": 1.0,
+          "zoom_to": 1.05
+        }
+      ],
+      "note": "逆光金毛舔食指互动，特写温馨可爱"
+    },
+    {
+      "id": "shot_04",
+      "layout": "split_2",
+      "duration": 3.6,
+      "ambient_backdrop": false,
+      "transition_in": "none",
+      "badge": "SURPRISE · 怀里还藏了一只",
+      "camera_meta": "DUAL PETS · 🔊 原声",
+      "clips": [
+        {
+          "slot": "top",
+          "source": "C0409.MP4",
+          "start": 24.2,
+          "speed": 1.0,
+          "crop_focus": [0.45, 0.48],
+          "label": "工位上：光明正大占座"
+        },
+        {
+          "slot": "bottom",
+          "source": "C0409.MP4",
+          "start": 218.8,
+          "speed": 1.0,
+          "crop_focus": [0.55, 0.52],
+          "label": "怀里那只：委屈哼唧争宠 🔊",
+          "keep_audio": true,
+          "audio_gain_db": 5.0,
+          "audio_highpass_hz": 180
+        }
+      ],
+      "note": "双联屏神反转：桌上一只霸占键盘，怀里还揣着一只小黑狗撒娇哼唧"
+    },
+    {
+      "id": "shot_05",
+      "layout": "cinema_frame",
+      "duration": 2.8,
+      "aspect_ratio": "4:3",
+      "ambient_backdrop": true,
+      "transition_in": "none",
+      "badge": "SERVICE · 首席揉脖官",
+      "camera_meta": "SONY 4K · F1.8",
+      "clips": [
+        {
+          "slot": "main",
+          "source": "C0410.MP4",
+          "start": 220.8,
+          "speed": 1.0,
+          "crop_focus": [0.54, 0.44],
+          "zoom_from": 1.0,
+          "zoom_to": 1.04
+        }
+      ],
+      "note": "仰头闭眼微笑杀，手法熟练"
+    },
+    {
+      "id": "shot_06",
+      "layout": "cinema_frame",
+      "duration": 2.6,
+      "aspect_ratio": "16:9",
+      "ambient_backdrop": true,
+      "transition_in": "none",
+      "badge": "DETAIL · 捧在手心的小爪",
+      "camera_meta": "CLOSE UP · 25FPS",
+      "clips": [
+        {
+          "slot": "main",
+          "source": "C0410.MP4",
+          "start": 193.5,
+          "speed": 1.0,
+          "crop_focus": [0.50, 0.48],
+          "zoom_from": 1.0,
+          "zoom_to": 1.05
+        }
+      ],
+      "note": "两只毛茸茸的小白爪搭在手心，细节治愈"
+    },
+    {
+      "id": "shot_07",
+      "layout": "cinema_frame",
+      "duration": 3.6,
+      "aspect_ratio": "4:3",
+      "ambient_backdrop": true,
+      "transition_in": "fade",
+      "badge": "GOOD NIGHT · 今日工位打烊",
+      "camera_meta": "CINEMATIC WARMTH",
+      "clips": [
+        {
+          "slot": "main",
+          "source": "C0408.MP4",
+          "start": 144.6,
+          "speed": 1.0,
+          "crop_focus": [0.42, 0.50],
+          "zoom_from": 1.0,
+          "zoom_to": 1.03,
+          "keep_audio": true,
+          "audio_gain_db": -2.0
+        }
+      ],
+      "note": "百叶窗斜射暖光安稳入睡，治愈感余味收尾"
+    }
+  ],
+  "captions": [
+    {
+      "id": "cap_01",
+      "start": 0.15,
+      "end": 2.30,
+      "text": "本来想在工位安静写会儿代码",
+      "highlight": "安静写会儿代码",
+      "subtext": "结果键盘上长出了一只毛球",
+      "position": "bottom"
+    },
+    {
+      "id": "cap_02",
+      "start": 2.45,
+      "end": 5.10,
+      "text": "不仅霸占手托，还要随时营业互动",
+      "highlight": "霸占手托",
+      "subtext": "击掌揉脸一条龙服务",
+      "position": "bottom"
+    },
+    {
+      "id": "cap_03",
+      "start": 5.25,
+      "end": 7.70,
+      "text": "手指刚伸过去，就被温柔截胡了",
+      "highlight": "温柔截胡",
+      "position": "bottom"
+    },
+    {
+      "id": "cap_04",
+      "start": 7.85,
+      "end": 11.10,
+      "text": "更离谱的是…怀里其实还揣着一只",
+      "highlight": "怀里其实还揣着一只",
+      "subtext": "🔊 听这委屈的小哼唧声",
+      "position": "bottom"
+    },
+    {
+      "id": "cap_05",
+      "start": 11.25,
+      "end": 13.90,
+      "text": "代码是一行没写，按摩手法倒是练熟了",
+      "highlight": "一行没写",
+      "position": "bottom"
+    },
+    {
+      "id": "cap_06",
+      "start": 14.05,
+      "end": 16.70,
+      "text": "全宇宙最粘人的高颜值陪班搭子",
+      "highlight": "陪班搭子",
+      "position": "bottom"
+    },
+    {
+      "id": "cap_07",
+      "start": 16.85,
+      "end": 20.25,
+      "text": "这班，终究是它俩上得最舒服",
+      "highlight": "最舒服",
+      "subtext": "今日代码效率 0% · 治愈值 100%",
+      "position": "bottom"
+    }
+  ]
+}

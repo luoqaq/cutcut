@@ -1,0 +1,31 @@
+{
+  "file": "/Users/luo/Projects/cutcut/edits/pet-douyin-v02/陪班搭子-电影感桌搭-v02.mp4",
+  "size_bytes": 15370042,
+  "sha256": "9b021b6bf2d40e03a59276e67884b7cb8ee8ed80d2d172790eb69ff08e883c50",
+  "media_info": {
+    "file": "陪班搭子-电影感桌搭-v02.mp4",
+    "path": "/Users/luo/Projects/cutcut/edits/pet-douyin-v02/陪班搭子-电影感桌搭-v02.mp4",
+    "duration": 20.459,
+    "raw_width": 1080,
+    "raw_height": 1920,
+    "rotation": 0,
+    "display_width": 1080,
+    "display_height": 1920,
+    "orientation": "portrait",
+    "fps": 30.0,
+    "video_codec": "h264",
+    "has_audio": true,
+    "audio_codec": "aac",
+    "creation_time": null
+  },
+  "full_decode": {
+    "exit_code": 0,
+    "errors": ""
+  },
+  "loudness_ebur128": {
+    "integrated_lufs": -16.5,
+    "true_peak_dbfs": -5.5
+  },
+  "qa_sheet": "/Users/luo/Projects/cutcut/edits/pet-douyin-v02/qa/qa_portrait_sheet.jpg",
+  "cover_image": "/Users/luo/Projects/cutcut/edits/pet-douyin-v02/cover.jpg"
+}

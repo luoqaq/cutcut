@@ -1,0 +1,139 @@
+{
+  "source_dir": "/Users/luo/Projects/cutcut/桌搭",
+  "sample_interval_sec": 5.0,
+  "media": [
+    {
+      "info": {
+        "file": "C0408.MP4",
+        "path": "/Users/luo/Projects/cutcut/桌搭/C0408.MP4",
+        "duration": 300.48,
+        "raw_width": 3840,
+        "raw_height": 2160,
+        "rotation": 0,
+        "display_width": 3840,
+        "display_height": 2160,
+        "orientation": "landscape",
+        "fps": 25.0,
+        "video_codec": "h264",
+        "has_audio": true,
+        "audio_codec": "pcm_s16be",
+        "creation_time": "2026-10-22T09:55:40.000000Z"
+      },
+      "audio_summary": {
+        "mean_dbfs": -43.6,
+        "crisp_interaction_seconds": [
+          151,
+          152,
+          226,
+          228,
+          229,
+          230
+        ],
+        "loud_spike_seconds": []
+      },
+      "contact_sheets": [
+        "/Users/luo/Projects/cutcut/edits/pet-douyin-v02/analysis/C0408_sheet_01.jpg",
+        "/Users/luo/Projects/cutcut/edits/pet-douyin-v02/analysis/C0408_sheet_02.jpg",
+        "/Users/luo/Projects/cutcut/edits/pet-douyin-v02/analysis/C0408_sheet_03.jpg"
+      ]
+    },
+    {
+      "info": {
+        "file": "C0409.MP4",
+        "path": "/Users/luo/Projects/cutcut/桌搭/C0409.MP4",
+        "duration": 247.2,
+        "raw_width": 3840,
+        "raw_height": 2160,
+        "rotation": 0,
+        "display_width": 3840,
+        "display_height": 2160,
+        "orientation": "landscape",
+        "fps": 25.0,
+        "video_codec": "h264",
+        "has_audio": true,
+        "audio_codec": "pcm_s16be",
+        "creation_time": "2026-10-22T10:01:20.000000Z"
+      },
+      "audio_summary": {
+        "mean_dbfs": -42.4,
+        "crisp_interaction_seconds": [
+          28,
+          219,
+          220,
+          222,
+          223,
+          225,
+          227,
+          228
+        ],
+        "loud_spike_seconds": []
+      },
+      "contact_sheets": [
+        "/Users/luo/Projects/cutcut/edits/pet-douyin-v02/analysis/C0409_sheet_01.jpg",
+        "/Users/luo/Projects/cutcut/edits/pet-douyin-v02/analysis/C0409_sheet_02.jpg",
+        "/Users/luo/Projects/cutcut/edits/pet-douyin-v02/analysis/C0409_sheet_03.jpg"
+      ]
+    },
+    {
+      "info": {
+        "file": "C0410.MP4",
+        "path": "/Users/luo/Projects/cutcut/桌搭/C0410.MP4",
+        "duration": 300.48,
+        "raw_width": 3840,
+        "raw_height": 2160,
+        "rotation": 0,
+        "display_width": 3840,
+        "display_height": 2160,
+        "orientation": "landscape",
+        "fps": 25.0,
+        "video_codec": "h264",
+        "has_audio": true,
+        "audio_codec": "pcm_s16be",
+        "creation_time": "2026-10-22T10:14:48.000000Z"
+      },
+      "audio_summary": {
+        "mean_dbfs": -46.9,
+        "crisp_interaction_seconds": [],
+        "loud_spike_seconds": []
+      },
+      "contact_sheets": [
+        "/Users/luo/Projects/cutcut/edits/pet-douyin-v02/analysis/C0410_sheet_01.jpg",
+        "/Users/luo/Projects/cutcut/edits/pet-douyin-v02/analysis/C0410_sheet_02.jpg",
+        "/Users/luo/Projects/cutcut/edits/pet-douyin-v02/analysis/C0410_sheet_03.jpg"
+      ]
+    },
+    {
+      "info": {
+        "file": "VID_20261022_184638.mp4",
+        "path": "/Users/luo/Projects/cutcut/桌搭/VID_20261022_184638.mp4",
+        "duration": 301.739,
+        "raw_width": 3840,
+        "raw_height": 2160,
+        "rotation": 90,
+        "display_width": 2160,
+        "display_height": 3840,
+        "orientation": "portrait",
+        "fps": 59.996,
+        "video_codec": "hevc",
+        "has_audio": true,
+        "audio_codec": "aac",
+        "creation_time": "2026-10-22T10:46:37.000000Z"
+      },
+      "audio_summary": {
+        "mean_dbfs": -40.0,
+        "crisp_interaction_seconds": [
+          237,
+          238,
+          240,
+          242
+        ],
+        "loud_spike_seconds": []
+      },
+      "contact_sheets": [
+        "/Users/luo/Projects/cutcut/edits/pet-douyin-v02/analysis/VID_20261022_184638_sheet_01.jpg",
+        "/Users/luo/Projects/cutcut/edits/pet-douyin-v02/analysis/VID_20261022_184638_sheet_02.jpg",
+        "/Users/luo/Projects/cutcut/edits/pet-douyin-v02/analysis/VID_20261022_184638_sheet_03.jpg"
+      ]
+    }
+  ]
+}

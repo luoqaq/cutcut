@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fcpxml>
+<fcpxml version="1.9">
+  <resources>
+    <format id="r1" name="FFVideoFormat1080x1920p30" frameDuration="1/30s" width="1080" height="1920"/>
+    <asset id="r2" name="shot_01_main" src="file:///Users/luo/Projects/cutcut/edits/pet-douyin-v02/prepared/clips/shot_01_main.mp4" start="0s" duration="76/30s" hasVideo="1" hasAudio="0" format="r1"/>
+    <asset id="r3" name="shot_02_top" src="file:///Users/luo/Projects/cutcut/edits/pet-douyin-v02/prepared/clips/shot_02_top.mp4" start="0s" duration="88/30s" hasVideo="1" hasAudio="0" format="r1"/>
+    <asset id="r4" name="shot_02_middle" src="file:///Users/luo/Projects/cutcut/edits/pet-douyin-v02/prepared/clips/shot_02_middle.mp4" start="0s" duration="88/30s" hasVideo="1" hasAudio="0" format="r1"/>
+    <asset id="r5" name="shot_02_bottom" src="file:///Users/luo/Projects/cutcut/edits/pet-douyin-v02/prepared/clips/shot_02_bottom.mp4" start="0s" duration="88/30s" hasVideo="1" hasAudio="0" format="r1"/>
+    <asset id="r6" name="shot_03_main" src="file:///Users/luo/Projects/cutcut/edits/pet-douyin-v02/prepared/clips/shot_03_main.mp4" start="0s" duration="82/30s" hasVideo="1" hasAudio="0" format="r1"/>
+    <asset id="r7" name="shot_04_top" src="file:///Users/luo/Projects/cutcut/edits/pet-douyin-v02/prepared/clips/shot_04_top.mp4" start="0s" duration="112/30s" hasVideo="1" hasAudio="0" format="r1"/>
+    <asset id="r8" name="shot_04_bottom" src="file:///Users/luo/Projects/cutcut/edits/pet-douyin-v02/prepared/clips/shot_04_bottom.mp4" start="0s" duration="112/30s" hasVideo="1" hasAudio="0" format="r1"/>
+    <asset id="r9" name="shot_05_main" src="file:///Users/luo/Projects/cutcut/edits/pet-douyin-v02/prepared/clips/shot_05_main.mp4" start="0s" duration="88/30s" hasVideo="1" hasAudio="0" format="r1"/>
+    <asset id="r10" name="shot_06_main" src="file:///Users/luo/Projects/cutcut/edits/pet-douyin-v02/prepared/clips/shot_06_main.mp4" start="0s" duration="82/30s" hasVideo="1" hasAudio="0" format="r1"/>
+    <asset id="r11" name="shot_07_main" src="file:///Users/luo/Projects/cutcut/edits/pet-douyin-v02/prepared/clips/shot_07_main.mp4" start="0s" duration="112/30s" hasVideo="1" hasAudio="0" format="r1"/>
+    <asset id="r12" name="bgm_stem" src="file:///Users/luo/Projects/cutcut/edits/pet-douyin-v02/prepared/audio/bgm_trimmed.wav" start="0s" duration="612/30s" hasVideo="0" hasAudio="1"/>
+    <asset id="r13" name="nat_stem" src="file:///Users/luo/Projects/cutcut/edits/pet-douyin-v02/prepared/audio/nat_stem.wav" start="0s" duration="612/30s" hasVideo="0" hasAudio="1"/>
+  </resources>
+  <library>
+    <event name="陪班搭子 · 电影感桌搭治愈版 v02">
+      <project name="陪班搭子 · 电影感桌搭治愈版 v02">
+        <sequence format="r1" duration="612/30s" tcStart="0s" tcFormat="NDF">
+          <spine>
+        <asset-clip name="shot_01_main" ref="r2" offset="0/30s" start="0s" duration="72/30s">
+          <asset-clip name="BGM" lane="-1" ref="r12" offset="0s" start="0s" duration="612/30s" role="music"/>
+          <asset-clip name="NatSound" lane="-2" ref="r13" offset="0s" start="0s" duration="612/30s" role="dialogue"/>
+        </asset-clip>
+        <asset-clip name="shot_02_middle" ref="r4" offset="72/30s" start="0s" duration="84/30s">
+          <asset-clip name="shot_02_top" lane="1" ref="r3" offset="0s" start="0s" duration="84/30s"/>
+          <asset-clip name="shot_02_bottom" lane="2" ref="r5" offset="0s" start="0s" duration="84/30s"/>
+        </asset-clip>
+        <asset-clip name="shot_03_main" ref="r6" offset="156/30s" start="0s" duration="78/30s"/>
+        <asset-clip name="shot_04_top" ref="r7" offset="234/30s" start="0s" duration="108/30s">
+          <asset-clip name="shot_04_bottom" lane="1" ref="r8" offset="0s" start="0s" duration="108/30s"/>
+        </asset-clip>
+        <asset-clip name="shot_05_main" ref="r9" offset="342/30s" start="0s" duration="84/30s"/>
+        <asset-clip name="shot_06_main" ref="r10" offset="426/30s" start="0s" duration="78/30s"/>
+        <asset-clip name="shot_07_main" ref="r11" offset="504/30s" start="0s" duration="108/30s"/>
+          </spine>
+        </sequence>
+      </project>
+    </event>
+  </library>
+</fcpxml>

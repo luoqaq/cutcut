@@ -1,0 +1,12 @@
+{
+  "srt": "/Users/luo/Projects/cutcut/edits/pet-douyin-v02/jianying_export/captions.srt",
+  "fcpxml": "/Users/luo/Projects/cutcut/edits/pet-douyin-v02/jianying_export/timeline.fcpxml",
+  "native_draft": {
+    "project_name": "CutCut-pet-douyin-v02",
+    "bundle_dir": "/Users/luo/Projects/cutcut/edits/pet-douyin-v02/jianying_export/native_draft/CutCut-pet-douyin-v02",
+    "installer_script": "/Users/luo/Projects/cutcut/edits/pet-douyin-v02/jianying_export/install_to_jianying.py",
+    "track_count": 8,
+    "bundled_media_files": 13,
+    "bundled_bytes": 61197603
+  }
+}
