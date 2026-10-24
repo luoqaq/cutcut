@@ -1,8 +1,0 @@
-file '/Users/luo/Projects/cutcut/edits/pet-douyin-v01/clips/01.mp4'
-file '/Users/luo/Projects/cutcut/edits/pet-douyin-v01/clips/02.mp4'
-file '/Users/luo/Projects/cutcut/edits/pet-douyin-v01/clips/03.mp4'
-file '/Users/luo/Projects/cutcut/edits/pet-douyin-v01/clips/04.mp4'
-file '/Users/luo/Projects/cutcut/edits/pet-douyin-v01/clips/05.mp4'
-file '/Users/luo/Projects/cutcut/edits/pet-douyin-v01/clips/06.mp4'
-file '/Users/luo/Projects/cutcut/edits/pet-douyin-v01/clips/07.mp4'
-file '/Users/luo/Projects/cutcut/edits/pet-douyin-v01/clips/08.mp4'
