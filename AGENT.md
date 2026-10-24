@@ -23,8 +23,7 @@ CutCut 是一个面向短视频平台（抖音 / 小红书 / 视频号）的工�
 | `projects/<项目名>/` | **【唯一】剪辑工程区** | 每个剪辑项目的配置文件与生成结果统一存放在此（例如 `projects/pet-douyin-v02/`）。 | ✅ 只追踪 `edit_spec.json` 等配置 JSON；❌ 自动排除成片 MP4 与切片缓存 |
 | `pipeline/` | **【核心】流水线引擎** | Python 算法与工具套件（感知、导演、预处理、校验、QA、CLI）。 | ✅ 纯代码，完整纳入 Git |
 | `studio/` | **【渲染】Remotion 套件** | React + TypeScript 视频画幅、动效与字幕组件库。 | ✅ 纯代码与配置，完整纳入 Git（`node_modules` 排除） |
-| `assets/bgm/` | **【静态】公共伴奏库** | 预置的免版权背景音乐（CC BY 4.0）与第三方许可。 | ✅ 仅维护经过授权的标准曲库 |
-| `docs/` | **【知识】文档中心** | `docs/research/`（平台方法论、草稿逆向调研）与 `docs/reviews/`（客观复盘评测）。 | ✅ 纯 Markdown 文档，完整纳入 Git |
+| `docs/` | **【本地笔记】过程知识库** | `docs/research/` 与 `docs/reviews/`（仅限本地参考，不入 Git 仓库）。 | ❌ **仅保留本地，不纳入 Git 仓库** |
 
 ---
 

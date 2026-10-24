@@ -25,8 +25,8 @@ projects/**/qa/qa_frames/
 projects/**/qa/qa_portrait_sheet.jpg
 projects/**/cover.jpg
 projects/**/preview-cover.jpg
-docs/**/*.jpg
-docs/**/*.png
+# Research notes & documentation (Kept locally only, not tracked in Git)
+docs/
 
 # Intermediate Render Clips & Logs
 projects/*/prepared/clips/

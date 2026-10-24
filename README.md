@@ -69,14 +69,10 @@ cutcut/
 │   │   └── components/           # 运镜缩放 (Ken Burns) 与动态字幕组件
 │   └── remotion.config.ts
 ├── projects/                     # 剪辑工程目录 (纯结构配置 JSON，无大文件)
-│   ├── pet-douyin-v01/           # Codex 初版粗剪归档
 │   └── pet-douyin-v02/           # 方案 B 电影感实战工程 (edit_spec.json, catalog.json)
 ├── data/                         # 素材中心 (全局被 .gitignore 排除大文件)
 │   └── raw/                      # 原始多机位 4K/手机拍摄大素材
 │       └── desk_setup/           # 桌搭主题拍摄素材
-├── docs/                         # 统一文档与调研中心
-│   ├── research/                 # 剪辑方法论、平台运营指南与草稿协议逆向
-│   └── reviews/                  # 评测与对比复盘 (v01 vs v02 对比报告)
 ├── assets/
 │   └── bgm/                      # 授权背景音乐库 (CC BY 4.0 Lo-Fi / Classical)
 ├── requirements.txt              # 跨平台 Python 核心依赖清单
@@ -85,8 +81,6 @@ cutcut/
 
 ### 🧭 目录职责与输入/输出流向说明
 
-新用户或协作者拿到项目后，只需关注以下三个核心目录：
-
 | 目录路径 | 角色与类型 | 协作说明 | Git 追踪情况 |
 | :--- | :--- | :--- | :--- |
 | [`data/raw/<主题>/`](data/README.md) | **【输入】原始视频素材库** | 用户放入相机/手机原始实拍视频的地方（支持建多个子文件夹） | ❌ 视频大文件自动忽略（保留文件夹结构说明） |
@@ -94,7 +88,6 @@ cutcut/
 | [`pipeline/`](pipeline/README.md) | **【引擎】Python 流水线核心** | 素材扫描、AI 导演编排、音频降噪、侧链闪避与质检工具 | ✅ 纯代码，完整追踪 |
 | [`studio/`](studio/README.md) | **【引擎】Remotion 视觉组件** | React + TypeScript 电影级排版与运镜组件，支持浏览器实时预览 | ✅ 纯代码，完整追踪 |
 | [`assets/bgm/`](assets/bgm/README.md) | **【资产】公共伴奏曲库** | 内置 CC BY 4.0 免版税音乐，渲染时提供伴奏底色 | ✅ 预置免版权伴奏与许可说明 |
-| [`docs/`](docs/) | **【知识】调研与复盘库** | 爆款短视频模型、平台剪辑技巧与 v01/v02 对比评测文档 | ✅ 纯文档 Markdown 完整追踪 |
 
 ---
 
